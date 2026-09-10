@@ -113,6 +113,10 @@
 
 To have the project up and running, please follow the [Quick Start Guide](https://docs.postiz.com/quickstart)
 
+### Self-Hosting with Dokploy
+
+To deploy Postiz on your VPS using Dokploy and Cloudflare R2, follow our [Dokploy Deployment Guide](docs/deployment/dokploy-guide.md).
+
 ## Sponsor Postiz
 
 We now give a few options to Sponsor Postiz:
