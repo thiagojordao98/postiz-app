@@ -23,6 +23,8 @@ services:
       CLOUDFLARE_REGION: ${CLOUDFLARE_REGION:-auto}
       API_LIMIT: ${API_LIMIT:-30}
       NX_ADD_PLUGINS: "false"
+      INSTAGRAM_APP_ID: ${INSTAGRAM_APP_ID}
+      INSTAGRAM_APP_SECRET: ${INSTAGRAM_APP_SECRET}
     volumes:
       - postiz-config:/config/
       - postiz-uploads:/uploads/
