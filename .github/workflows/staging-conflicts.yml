@@ -11,8 +11,9 @@ name: Resolve staging conflicts
 #   CLAUDE_CODE_OAUTH_TOKEN   Claude API key, despite the secret name
 
 on:
-  schedule:
-    - cron: "*/10 * * * *"
+  push:
+    tags:
+      - '*staging*'
   workflow_dispatch:
 
 concurrency:
